@@ -10,8 +10,8 @@ proving reliable for me. Hope this helps others.
 
 - Console cable connected from serial/rs232/com port on windows to switch on console port. 
 - Have a copy of the firmware required from the cisco website
-- Have the firmware extracted from tar/zip/whatever, I suggest 7zip.
-- Download a copy of Extraputty. 
+- Have the firmware extracted from tar/zip/whatever, I suggest [7zip](https://www.7-zip.org/download.html).
+- Download a copy of [Extraputty](http://www.extraputty.com/download.php).  
 
 
 #### Procedure:
@@ -25,7 +25,9 @@ At "switch:" prompt
     load_helper
     copy xmodem: flash:c2960-lanbasek9-mz.122-55.SE12.bin
 
-In extraputty go to "File Transfer" and **Xmodem 1k  --> Send**  
+In extraputty go to "File Transfer" and **Xmodem 1k  --> Send** 
+I initially tried Xmodem instead of Xmodem 1k and there were transmission failures. The 1k sends chunks
+of 1024 bytes, this seems more reliable in my tests. 
 
 Choose: c2960-lanbasek9-mz.122-55.SE12.bin
 
