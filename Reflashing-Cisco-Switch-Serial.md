@@ -1,6 +1,19 @@
 # Reflashing Cisco Switch 
 ##(2960 or equivalent without USB etc) over serial
 
+Kinda used to having modern equipment with USB etc, unbricking
+this was harder than expected and tftpd64 and equivalents weren't
+proving reliable for me. 
+
+
+#### Assumptions/Requirements:
+- Console cable connected from serial/rs232/com port on windows to switch on console port. 
+- Have a copy of the firmware required from the cisco website
+- Have the firmware extracted from tar/zip/whatever, I suggest 7zip.
+- Download a copy of Extraputty. 
+
+
+#### Procedure
 Using extraputty - console in over serial port.
 Make sure baud is 115200 or this will take hours.
 
