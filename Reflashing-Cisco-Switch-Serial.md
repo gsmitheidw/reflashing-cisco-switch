@@ -3,7 +3,7 @@
 
 Kinda used to having modern equipment with USB etc, unbricking
 this was harder than expected and tftpd64 and equivalents weren't
-proving reliable for me. 
+proving reliable for me. Hope this helps others.
 
 
 #### Assumptions/Requirements:
@@ -23,10 +23,11 @@ At "switch:" prompt
     load_helper
     copy xmodem: flash:c2960-lanbasek9-mz.122-55.SE12.bin
 
-In extraputty go to "File Transfer" and **Xmodem 1k** --> send  
+In extraputty go to "File Transfer" and **Xmodem 1k  --> Send **  
+
 Choose: c2960-lanbasek9-mz.122-55.SE12.bin
 
-Wait a while - at 115200, it'll probably take about 20 mins-ish  
+Wait a while, at 115200, it'll probably take 20 mins-ish    
 Once successfully transferred:
 
     boot flash:c2960-lanbasek9-mz.122-55.SE12.bin
