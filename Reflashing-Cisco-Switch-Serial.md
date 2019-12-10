@@ -25,7 +25,7 @@ At "switch:" prompt
     load_helper
     copy xmodem: flash:c2960-lanbasek9-mz.122-55.SE12.bin
 
-In extraputty go to "File Transfer" and **Xmodem 1k  --> Send **  
+In extraputty go to "File Transfer" and **Xmodem 1k  --> Send**  
 
 Choose: c2960-lanbasek9-mz.122-55.SE12.bin
 
