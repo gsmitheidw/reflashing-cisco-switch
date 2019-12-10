@@ -1,5 +1,5 @@
 # Reflashing Cisco Switch 
-##(2960 or equivalent without USB etc) over serial
+## (2960 or equivalent without USB etc) over serial
 
 Kinda used to having modern equipment with USB etc, unbricking
 this was harder than expected and tftpd64 and equivalents weren't
