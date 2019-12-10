@@ -7,13 +7,15 @@ proving reliable for me. Hope this helps others.
 
 
 #### Assumptions/Requirements:
+
 - Console cable connected from serial/rs232/com port on windows to switch on console port. 
 - Have a copy of the firmware required from the cisco website
 - Have the firmware extracted from tar/zip/whatever, I suggest 7zip.
 - Download a copy of Extraputty. 
 
 
-#### Procedure
+#### Procedure:
+
 Using extraputty - console in over serial port.
 Make sure baud is 115200 or this will take hours.
 
